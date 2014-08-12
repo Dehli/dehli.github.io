@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Capstone Project - MySecretary"
+date:   2014-05-04 12:47:00
+categories: programming iOS
+---
+
+Last Friday I presented my Capstone Project. I have worked on this project this whole school year, and to see the culmination of all my work was amazing. I, along with Nate Hagan and Michael Gerber, created MySecretary. An iOS application that is the future of scheduling. When creating events, finding a time can be a pain. With MySecretary, you choose a length of time and an event category. MySecretary then goes to the cloud and finds a time that works for everyone and also conforms to the category. We plan to release this on the App Store after we add a few more features that were out of the scope of the project.
+
+First semester, we designed the application. We weren't allowed to do any programming until second semester. In the screenshots, the left shows the design after the first semester and the right shows what we programmed in the second semester.

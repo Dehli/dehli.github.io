@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Angles - My independent study"
+date:   2014-05-22 7:38:00
+categories: programming games
+---
+
+During my senior year at college, I embarked on a journey to produce a game, called Angles, and release it for PlayStation devices.
+
+First semester, I worked using the PSP SDK. It was self taught, and the progress made was minimal. Basic gameplay and a simple level were developed, but the product was nowhere near the level I wanted it to be. Difficulties with debugging and the complexity of the SDK proved to be an unmeetable challenge.
+
+Second semester, I switched over to Sony's PhyreEngine. This is a GameEngine that I thought would help me develop at a faster pace. True enough, I made more progress in less time than using the SDK. Unfortunately, it still provided many difficulties. Deploying proved to be quite a challenge, and I never figured out how to use many of the Sony tools. 
+
+With a month left of the semester, I realized once again that Angles wouldn't be where I wanted it to be if I continued down this path. I then decided to switch to Unity. It has an ability to deploy to the PS Vita so I thought it could work. This was the best decision made. In one month, the basis for a fully working game was developed and deployed onto the PS Vita. A video of the game is below. Moral of the story is: use Unity! 
+
+http://youtu.be/kvbnw1jKaxw

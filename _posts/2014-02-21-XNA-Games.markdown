@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "XNA Games"
+date:   2014-02-21 15:29:00
+categories: programming games
+---
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PLHfsk8NlpcelgMbm36hnxYhqJ8vUWCjGJ" frameborder="0" allowfullscreen></iframe>
+
+This playlist showcases 7 different games I made between September 2012 and December 2013 using Microsoft XNA Game Studio 4.0. They are shown in reverse chronological order.
+
+Please click on the (i) in the top right of the embedded played for more detailed information about each game. Some of the skills I developed through making these games are:
+
+1. 2D Graphics
+2. 3D Graphics
+3. Machine Learning AI
+4. System Link Networking
+5. Xbox Live Networking
+6. Dead reckoning
+7. Audio Mechanics
+8. Shading
+9. Making Menus
+10. Save Game States
