@@ -1,43 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+  {% include head.html %}
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
 
-    </head>
-    <body>
+    <body id="page-top" class="index">
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Christian Paul Dehli<br />
-                Computer Scientist
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/dehli">github.com/dehli</a><br />
-                <a href="https://www.linkedin.com/in/dehli">linkedin.com/in/dehli</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+    {% include header.html %}
+    {% include portfolio_grid.html %}
+    {% include about.html %}
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
 
     </body>
 </html>
