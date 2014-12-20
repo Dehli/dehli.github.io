@@ -28,10 +28,15 @@ social:
     url: http://bitbucket.org/dehli
   - title: github
     url: http://github.com/dehli
+  - title: linkedin
+    url: http://linkedin.com/in/dehli
+  - title: google-plus
+    url: http://google.com/+ChristianDehli
 
 # Postal address (add as many lines as necessary)
 address:
   - line: Pittsburgh, PA
+  - line: U.S.A.
   
 # Credits content
 credits: 'Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
