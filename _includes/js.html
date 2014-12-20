@@ -44,6 +44,9 @@
 			if (getUrlParameter('contact')) {
 				// Scroll to contact section
 				document.getElementById('contact').scrollIntoView();
+				
+				// Removes param from address bar
+				window.history.pushState("object or string", "Title", "/");
                 
 				// Success message
                 $('#success').html("<div class='alert alert-success'>");
