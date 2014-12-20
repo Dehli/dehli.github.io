@@ -20,6 +20,17 @@
 	<script src="{{ "/js/konami.js" | prepend: site.baseurl }}"></script>
 	
 	<script type="text/javascript">
+		function getUrlParameter(sParam) {
+	    	var sPageURL = window.location.search.substring(1);
+	    	var sURLVariables = sPageURL.split('&');
+	    	for (var i = 0; i < sURLVariables.length; i++) {
+	        	var sParameterName = sURLVariables[i].split('=');
+	        	if (sParameterName[0] == sParam) {
+	            	return sParameterName[1];
+	        	}
+	    	}
+		}
+	
 		if (window.addEventListener) { // Mozilla, Netscape, Firefox
 	    	window.addEventListener('load', WindowLoad, false);
 		} else if (window.attachEvent) { // IE
@@ -28,5 +39,10 @@
 
 		function WindowLoad(event) {
 			var easter_egg = new Konami('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+			
+			// Check if page came back from Simple Forms
+			if (getUrlParameter('contact')) {
+				document.getElementById('contact').scrollIntoView();
+			}
 		}
 	</script>

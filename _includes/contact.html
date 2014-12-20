@@ -10,7 +10,8 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
 					<form name="sentMessage" id="contactForm" novalidate action="http://getsimpleform.com/messages?form_api_token=4f9d4fe9cd5a70758f2c79b773d8c2fa" method="post">
-                        <div class="row control-group">
+					    <input type='hidden' name='redirect_to' value='http://dehli.github.io?contact=true' />
+						<div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
                                 <input type="text" name="name" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
