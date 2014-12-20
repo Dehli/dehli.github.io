@@ -42,7 +42,17 @@
 			
 			// Check if page came back from Simple Forms
 			if (getUrlParameter('contact')) {
+				// Scroll to contact section
 				document.getElementById('contact').scrollIntoView();
+                
+				// Success message
+                $('#success').html("<div class='alert alert-success'>");
+                $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                    .append("</button>");
+                $('#success > .alert-success')
+                    .append("<strong>Your message has been sent. </strong>");
+                $('#success > .alert-success')
+                    .append('</div>');
 			}
 		}
 	</script>
