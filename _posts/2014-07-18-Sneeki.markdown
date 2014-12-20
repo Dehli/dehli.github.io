@@ -9,7 +9,7 @@ project-date: July 2014 - Present (released in October)
 tags:
   - featured
   - mobile
-  - iOS
+  - ios
   - android
 
 website: http://sneekiapp.com

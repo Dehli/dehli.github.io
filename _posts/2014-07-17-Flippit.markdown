@@ -1,0 +1,21 @@
+---
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: flippit.png
+alt: image-alt
+project-date: April 2014
+
+tags:
+  - featured
+  - mobile
+  - ios
+---
+Flippit is an iOS game that uses the phone's gyroscope and accelerometer to calculate the number of flips completed. Unfortunately, this app was not approved for the App Store due to it encouraging users to break their devices. I would like to eventually port this game to Android, since the Google Play Store is much more lenient.
+
+<div class="col-md-6">
+	<img src="img/flippit/1.png" class="img-responsive img-centered" alt="Screenshot">
+</div>
+<div class="col-md-6">
+	<img src="img/flippit/2.png" class="img-responsive img-centered" alt="Screenshot">
+</div>
