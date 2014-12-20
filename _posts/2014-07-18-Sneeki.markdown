@@ -2,11 +2,23 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: cabin.png
+img: sneeki.png
 alt: image-alt
-project-date: July 2014 - Present
-client: Sippy Studios, LLC
-category: Mobile Application
-description: Sneeki is an anonymous, location baesd, photo and video sharing mobile app. It's available for both iOS and Android. I started programming the app in July 2014. <a href="//sneekiapp.com">Website</a>.
 
+project-date: July 2014 - Present (released in October)
+tags:
+  - featured
+  - mobile
+  - iOS
+  - android
+
+website: http://sneekiapp.com
 ---
+
+Sneeki is an anonymous, location based, photo and video sharing app. I created it as a method for people to stay connected to others around them.
+
+Through Sneeki I learned Swift, Android development, as well as all the processes that go into creating, publishing, and maintaining a mobile app.
+
+The map below shows all of the locations where Sneeki photos were taken. It's been a lot of fun seeing Sneeki spread!
+
+<img src="img/sneeki/map.png" class="img-responsive img-centered" alt="Map">

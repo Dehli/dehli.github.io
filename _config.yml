@@ -18,20 +18,20 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: //twitter.com/cpdehli
-  - title: facebook
-    url: //facebook.com/sippyy
-  - title: stack-overflow
-    url: http://stackoverflow.com/users/2411075/dehli
-  - title: bitbucket 
-    url: http://bitbucket.org/dehli
-  - title: github
-    url: http://github.com/dehli
   - title: linkedin
     url: http://linkedin.com/in/dehli
   - title: google-plus
     url: http://google.com/+ChristianDehli
+  - title: github
+    url: http://github.com/dehli
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/2411075/dehli
+  - title: bitbucket 
+    url: http://bitbucket.org/dehli
+  - title: twitter
+    url: //twitter.com/cpdehli
+  - title: facebook
+    url: //facebook.com/sippyy
 
 # Postal address (add as many lines as necessary)
 address:
