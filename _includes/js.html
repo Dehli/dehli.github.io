@@ -18,6 +18,9 @@
 
 	<!-- Konami -->
 	<script src="{{ "/js/konami.js" | prepend: site.baseurl }}"></script>
+
+	<!-- Auto hide -->
+	<script src="{{ "/js/jquery.bootstrap-autohidingnavbar.min.js" | prepend: site.baseurl }}"></script>
 	
 	<script type="text/javascript">
 		function getUrlParameter(sParam) {
@@ -39,6 +42,10 @@
 
 		function WindowLoad(event) {
 			var easter_egg = new Konami('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+			
+			$(".navbar-fixed-top").autoHidingNavbar({
+			  // see next for specifications
+			});
 			
 			// Check if page came back from Simple Forms
 			if (getUrlParameter('contact')) {
