@@ -5,6 +5,8 @@ date: 2014-07-18
 img: sneeki.png
 alt: image-alt
 
+summary: An anonymous, location based, photo and video sharing app.
+
 project-date: July 2014 - Present (released in October)
 tags:
   - featured
