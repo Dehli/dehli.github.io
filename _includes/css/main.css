@@ -241,9 +241,9 @@ section.success {
     margin: 0;
 }
 
-#portfolio * {
+/*#portfolio * {
     z-index: 2;
-}
+}*/
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
