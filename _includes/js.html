@@ -75,19 +75,13 @@
 			
 			//$(".navbar-fixed-top").autoHidingNavbar();
 			
-            var a = document.getElementById("mobileLink");
-			a.onclick = function () {
-				search('mobile');
-			};
-			
-            var b = document.getElementById("gameLink");
-			b.onclick = function () {
-				search('game');
-			};
-			
-            var c = document.getElementById("webLink");
-			c.onclick = function () {
-				search('web');
+			var links = ['mobile', 'game', 'web'];
+			for (var i = 0; i < links.length; ++i) {
+				var link = document.getElementById(links[i] + 'Link');
+				link.term = links[i];
+				link.onclick = function () {
+					search(this.term);
+				};
 			}
 			
 			$('#searchBar').on('input', function() { 
