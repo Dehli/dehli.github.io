@@ -29,9 +29,30 @@
 			if (searchBar.value != term) {
 				searchBar.value = term;
 			}
+			
+			// Go through projects
+			var projects = document.getElementById("portfolioRow").children;
+			for (var i = 0; i < projects.length; ++i) {
+				if (validProject(projects[i], term)) {
+					projects[i].hidden = false;
+				}
+				else {
+					projects[i].hidden = true;
+				}
+			}
+
 			return false;
 		}
-	
+		
+		var validProject = function (projectDiv, parameter) {
+			if (projectDiv.id == parameter) {
+				return true;
+			}
+			else {
+				return false;
+			}
+		}		
+		
 		function getUrlParameter(sParam) {
 	    	var sPageURL = window.location.search.substring(1);
 	    	var sURLVariables = sPageURL.split('&');
@@ -68,6 +89,10 @@
 			c.onclick = function () {
 				search('web');
 			}
+			
+			$('#searchBar').on('input', function() { 
+			    search($(this).val());
+			});
 			
 			// Check if page came back from Simple Forms
 			if (getUrlParameter('contact')) {
