@@ -45,7 +45,10 @@
 		}
 		
 		var validProject = function (projectDiv, parameter) {
-			if (projectDiv.id == parameter) {
+			var terms = projectDiv.getAttribute('data-terms').toLowerCase();
+			var param = parameter.toLowerCase();
+			
+			if (terms.indexOf(param) > -1) {
 				return true;
 			}
 			else {

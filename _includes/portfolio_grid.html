@@ -31,8 +31,8 @@
 			</div>
 		</div>
 		<div class="row" id="portfolioRow">
-			{% for post in site.posts %} <!-- TODO -->
-                <div class="col-sm-4 portfolio-item" id="{{ post.title }}">
+			{% for post in site.posts %}
+                <div class="col-sm-4 portfolio-item" data-terms="{{ post.title }}{{ post.tags }}">
                     <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
