@@ -1,11 +1,11 @@
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2>Portfolio</h2>
-				<hr class="star-primary">
-				
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Portfolio</h2>
+                <hr class="star-primary">
+
 				<nav class="navbar navbar-default" role="navigation">
 					<div class="container-fluid">
 						<ul class="nav navbar-nav navbar-left">
@@ -27,11 +27,13 @@
 						</form>
 					</div><!-- /.container-fluid -->
 				</nav>
-				
-			</div>
-		</div>
-		<div class="row" id="portfolioRow">
-			{% for post in site.posts %}
+
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="row" id="portfolioRow">
+            {% for post in site.categories.projects %}
                 <div class="col-sm-4 portfolio-item" data-terms="{{ post.title }}{{ post.tags }}">
                     <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -40,12 +42,13 @@
                             </div>
                         </div>
                         <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-						<div>
-							<h4>{{ post.title }}</h4>
-						</div>
+                        <div>
+                            <h4>{{ post.title }}</h4>
+                        </div>
                     </a>
                 </div>
             {% endfor %}
         </div>
+
     </div>
 </section>
