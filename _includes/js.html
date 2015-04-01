@@ -12,98 +12,47 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/freelancer.js" | prepend: site.baseurl }}"></script>
 
-<!-- Konami -->
-<script src="{{ "/js/konami.js" | prepend: site.baseurl }}"></script>
-
-<!-- Auto hide -->
-<script src="{{ "/js/jquery.bootstrap-autohidingnavbar.min.js" | prepend: site.baseurl }}"></script>
 
 <script type="text/javascript">
-	var search = function(term) {
-		var searchBar = document.getElementById("searchBar");
-		if (searchBar.value != term) {
-			searchBar.value = term;
-		}
 
-		// Go through projects
-		var projects = document.getElementById("portfolioRow").children;
-		for (var i = 0; i < projects.length; ++i) {
-			if (validProject(projects[i], term)) {
-				projects[i].hidden = false;
-			}
-			else {
-				projects[i].hidden = true;
-			}
-		}
+    function getUrlParameter(sParam) {
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split('&');
+        for (var i = 0; i < sURLVariables.length; i++) {
+            var sParameterName = sURLVariables[i].split('=');
+            if (sParameterName[0] == sParam) {
+                return sParameterName[1];
+            }
+        }
+    }
 
-		return false;
-	}
-
-	var validProject = function (projectDiv, parameter) {
-		var terms = projectDiv.getAttribute('data-terms').toLowerCase();
-		var param = parameter.toLowerCase();
-
-		if (terms.indexOf(param) > -1) {
-			return true;
-		}
-		else {
-			return false;
-		}
-	}
-
-	function getUrlParameter(sParam) {
-	    	var sPageURL = window.location.search.substring(1);
-	    	var sURLVariables = sPageURL.split('&');
-	    	for (var i = 0; i < sURLVariables.length; i++) {
-	        	var sParameterName = sURLVariables[i].split('=');
-	        	if (sParameterName[0] == sParam) {
-	            	return sParameterName[1];
-	        	}
-	    	}
-	}
-
-	if (window.addEventListener) { // Mozilla, Netscape, Firefox
-	    	window.addEventListener('load', WindowLoad, false);
-	} else if (window.attachEvent) { // IE
-	    	window.attachEvent('onload', WindowLoad);
-	}
+    if (window.addEventListener) { // Mozilla, Netscape, Firefox
+        window.addEventListener('load', WindowLoad, false);
+    }
+    else if (window.attachEvent) { // IE
+        window.attachEvent('onload', WindowLoad);
+    }
 
 	function WindowLoad(event) {
-		var easter_egg = new Konami('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+        // Check if page came back from Simple Forms
+        if (getUrlParameter('contact')) {
+            // Scroll to contact section
+            document.getElementById('contact').scrollIntoView();
 
-		//$(".navbar-fixed-top").autoHidingNavbar();
+            // Removes param from address bar
+            window.history.pushState("object or string", "Title", "/");
 
-		var links = ['mobile', 'game', 'web'];
-		for (var i = 0; i < links.length; ++i) {
-			var link = document.getElementById(links[i] + 'Link');
-			link.term = links[i];
-			link.onclick = function () {
-				search(this.term);
-			};
-		}
+            // Success message
+            $('#success').html("<div class='alert alert-success'>");
+            $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                .append("</button>");
+            $('#success > .alert-success')
+                .append("<strong>Your message has been sent. </strong>");
+            $('#success > .alert-success')
+                .append('</div>');
+        }
+    }
 
-		$('#searchBar').on('input', function() {
-			search($(this).val());
-		});
-
-		// Check if page came back from Simple Forms
-		if (getUrlParameter('contact')) {
-			// Scroll to contact section
-			document.getElementById('contact').scrollIntoView();
-
-			// Removes param from address bar
-			window.history.pushState("object or string", "Title", "/");
-
-			// Success message
-			$('#success').html("<div class='alert alert-success'>");
-			$('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                		.append("</button>");
-                	$('#success > .alert-success')
-                		.append("<strong>Your message has been sent. </strong>");
-                	$('#success > .alert-success')
-                		.append('</div>');
-		}
-	}
 </script>
 
 <!-- Google Analytics -->
