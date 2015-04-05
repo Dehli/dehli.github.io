@@ -3,20 +3,12 @@ title: Dehli
 email: cp@dehli.io
 description: "Christian Paul Dehli's awesome portfolio website."
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-  
 # Footer settings
 footer:
   copyright: Christian Paul Dehli
-  location: Location
   social: Around the Web
-  credits: Credits
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames
 social:
   - title: linkedin
     url: http://linkedin.com/in/dehli
@@ -26,20 +18,12 @@ social:
     url: http://github.com/dehli
   - title: stack-overflow
     url: http://stackoverflow.com/users/2411075/dehli
-  - title: bitbucket 
+  - title: bitbucket
     url: http://bitbucket.org/dehli
   - title: twitter
     url: //twitter.com/cpdehli
   - title: facebook
     url: //facebook.com/sippyy
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Pittsburgh, PA
-  - line: U.S.A.
-  
-# Credits content
-credits: 'Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
