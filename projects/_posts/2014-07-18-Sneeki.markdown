@@ -2,17 +2,12 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: sneeki.png
+img: https://cloud.githubusercontent.com/assets/5856011/7004170/128f7a8c-dc35-11e4-9545-d9d47fe4a54a.png
 alt: image-alt
 
 summary: An anonymous, location based, photo and video sharing app.
 
 project-date: July 2014 - Present (released in October)
-tags:
-  - featured
-  - mobile
-  - ios
-  - android
 
 website: http://sneekiapp.com
 ---
@@ -23,4 +18,4 @@ Through Sneeki I learned Swift, Android development, as well as all the processe
 
 The map below shows all of the locations where Sneeki photos were taken. It's been a lot of fun seeing Sneeki spread!
 
-<img src="img/sneeki/map.png" class="img-responsive img-centered" alt="Map">
+<img src="https://cloud.githubusercontent.com/assets/5856011/7004172/15712304-dc35-11e4-968e-ae1da892caeb.png" class="img-responsive img-centered" alt="Map">
