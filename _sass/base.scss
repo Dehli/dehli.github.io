@@ -11,7 +11,6 @@ body {
     }
 }
 
-
 p {
     font-size: 20px;
 }
@@ -417,4 +416,8 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.heart {
+    color: #f00;
 }

@@ -3,11 +3,6 @@ title: Dehli
 email: cp@dehli.io
 description: "Christian Paul Dehli's awesome portfolio website."
 
-# Footer settings
-footer:
-  copyright: Christian Paul Dehli
-  social: Around the Web
-
 # Social networks usernames
 social:
   - title: linkedin
