@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Flappy Bird & Smalltalk"
-date:   2014-03-28 11:10:00
+title:  Flappy Bird & Smalltalk
 categories: programming games
 ---
 

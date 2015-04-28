@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Site Migration"
-date:   2014-01-19 05:16:00
+title:  Site Migration
 categories: programming web
 ---
 

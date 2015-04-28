@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "The AppStore"
-date:   2014-07-16 09:15:00
+title:  The AppStore
 categories: programming iOS
 ---
 
