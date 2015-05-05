@@ -16,6 +16,9 @@ Sneeki is an anonymous, location based, photo and video sharing app. I created i
 
 Through Sneeki I learned Swift, Android development, as well as all the processes that go into creating, publishing, and maintaining a mobile app.
 
-The map below shows all of the locations where Sneeki photos were taken. It's been a lot of fun seeing Sneeki spread!
-
-<img src="https://cloud.githubusercontent.com/assets/5856011/7004172/15712304-dc35-11e4-968e-ae1da892caeb.png" class="img-responsive img-centered" alt="Map">
+<div class="col-md-6">
+	<img src="http://a5.mzstatic.com/us/r30/Purple3/v4/d7/c4/e7/d7c4e7fb-d0bb-ff61-2ef2-101f87fd601a/screen568x568.jpeg" class="img-responsive img-centered" alt="Screenshot">
+</div>
+<div class="col-md-6">
+	<img src="http://a2.mzstatic.com/us/r30/Purple3/v4/06/ac/a8/06aca87d-5b11-0116-30ca-95e208ed883a/screen568x568.jpeg" class="img-responsive img-centered" alt="Screenshot">
+</div>
