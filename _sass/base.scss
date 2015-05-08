@@ -4,25 +4,8 @@ body {
     padding-top: 55px;
 }
 
-@media(min-width:768px) {
-    body {
-        /* Accounts for the nav bar */
-        padding-top: 110px;
-    }
-}
-
-p {
-    font-size: 20px;
-}
-
-p.small {
-    font-size: 16px;
-}
-
-a,a:hover,a:focus,
-a:active,a.active {
-    outline: 0;
-    color: $primary-color;
+h1, h2 {
+    font-size: 3em;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -30,6 +13,26 @@ h1,h2,h3,h4,h5,h6 {
     font-family: $base-font-family;
     font-weight: 700;
 }
+
+@media(min-width:$min-width) {
+    body {
+        /* Accounts for the nav bar */
+        padding-top: 110px;
+    }
+    
+    h1 {
+        font-size: 4.75em;
+    }
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: $primary-color;
+}
+
 
 i.fa-code {
     margin: 25px auto 30px;
@@ -42,11 +45,17 @@ i.fa-code {
 
 header {
     text-align: center;
-    color: #fff;
+}
+
+.primaryColor {
     background: $primary-color;
 }
 
-header .container {
+.primaryColor h1, .primaryColor h2, .primaryColor i {
+    color: $secondary-color;
+}
+
+header .container-fluid {
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -56,36 +65,13 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .intro-text .name {
-    display: block;
-    text-transform: uppercase;
-    font-family: $base-font-family;
-    font-size: 2em;
-    font-weight: 700;
-}
-
-header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300;
-}
-
-@media(min-width:768px) {
-    header .container {
+@media(min-width:$min-width) {
+    header .container-fluid {
         padding-top: 100px;
         padding-bottom: 100px;
         margin-top: -50px;
     }
-
-    header .intro-text .name {
-        font-size: 4.75em;
-    }
-
-    header .intro-text .skills {
-        font-size: 1.75em;
-    }
-}
-
-@media(min-width:768px) {
+    
     .navbar-fixed-top {
         padding: 10px 0;
         -webkit-transition: padding .3s;
@@ -108,44 +94,18 @@ header .intro-text .skills {
     margin: 0;
 }
 
-.navbar a:focus {
-    outline: 0;
-}
-
 .navbar .navbar-nav {
     letter-spacing: 1px;
 }
 
-.navbar .navbar-nav li a:focus {
-    outline: 0;
-}
-
-.navbar-default,
-.navbar-inverse {
-    border: 0;
-}
 
 section {
     padding: 100px 0;
 }
 
-section h2 {
-    margin: 0;
-    font-size: 3em;
-}
-
-section.success {
-    color: #fff;
-    background: $primary-color;
-}
-
-@media(max-width:767px) {
+@media(max-width:$max-width) {
     section {
         padding: 75px 0;
-    }
-
-    section.first {
-        padding-top: 75px;
     }
 }
 
@@ -166,7 +126,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba($primary-color, .9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -196,28 +156,10 @@ section.success {
     margin: 0;
 }
 
-@media(min-width:767px) {
+@media(min-width:$min-width) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
-}
-
-.btn-outline {
-    margin-top: 15px;
-    border: solid 2px #fff;
-    font-size: 20px;
-    color: #fff;
-    background: 0 0;
-    transition: all .3s ease-in-out;
-}
-
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-    border: solid 2px #fff;
-    color: $primary-color;
-    background: #fff;
 }
 
 .floating-label-form-group {
@@ -277,43 +219,37 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
-}
-
-footer h3 {
-    margin-bottom: 30px;
-}
-
-footer .footer-above {
-    margin-top: 50px;
-    padding-top: 50px;
-    background-color: $secondary-color;
-}
-
-footer .footer-col {
-    margin-bottom: 50px;
-}
-
-footer .footer-below {
     padding: 25px 0;
-    background-color: $secondary-dark;
+}
+
+.btn-outline, .btn-outline:focus {
+    margin-top: 15px;
+    border: solid 2px $secondary-color;
+    font-size: 20px;
+    color: $secondary-color;
+    background: 0 0;
+    outline: thin;
+}
+
+.btn-outline, .btn-outline i {
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover {
+    color: $primary-color;
+    background: $secondary-color;
+}
+.btn-outline:hover i {
+    color: $primary-color;
 }
 
 .btn-social {
+    font-size: 20px;
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #fff;
     border-radius: 100%;
-    text-align: center;
-    font-size: 20px;
     line-height: 45px;
-}
-
-.btn:focus,
-.btn:active,
-.btn.active {
-    outline: 0;
 }
 
 .portfolio-modal .modal-content {
@@ -381,5 +317,5 @@ footer .footer-below {
 
 .face {
     max-width: 250px;
-    border: 10px solid #ffffff;
+    border: 10px solid $secondary-color;
 }
