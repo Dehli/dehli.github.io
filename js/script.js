@@ -17,12 +17,9 @@ function getUrlParameter(sParam) {
 
 $(function() {
     // Check if page came back from Simple Forms
-    if (getUrlParameter('contact')) {
-        // Scroll to contact section
-        document.getElementById('contact').scrollIntoView();
-
+    if (window.location.pathname == '/contact/' && getUrlParameter('sent')) {
         // Removes param from address bar
-        window.history.pushState("object or string", "Title", "/");
+        window.history.pushState("object or string", "Title", window.location.pathname);
 
         // Success message
         $('#success').html("<div class='alert alert-success'>\
@@ -30,7 +27,7 @@ $(function() {
                                     &times;\
                                 </button>\
                                 <strong>\
-                                    Your message has been sent.\
+                                    Your message was sent!\
                                 </strong>\
                             </div>");
     }

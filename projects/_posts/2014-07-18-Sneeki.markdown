@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: https://cloud.githubusercontent.com/assets/5856011/7004170/128f7a8c-dc35-11e4-9545-d9d47fe4a54a.png
+img: https://cloud.githubusercontent.com/assets/5856011/7546530/8e798e0e-f5ac-11e4-8516-d6822e90b656.png
 alt: image-alt
 
 summary: An anonymous, location based, photo and video sharing app.

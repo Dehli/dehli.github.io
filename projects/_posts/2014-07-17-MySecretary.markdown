@@ -2,10 +2,10 @@
 layout: default
 modal-id: 4
 date: 2014-01-01
-img: https://cloud.githubusercontent.com/assets/5856011/7004198/67400858-dc35-11e4-9cd0-9ae7f0fb30db.png
+img: https://cloud.githubusercontent.com/assets/5856011/7546574/231de76c-f5ad-11e4-8952-e90474344c9b.png
 alt: image-alt
 project-date: Jan 2014 - May 2014
-
+title: MySecretary
 ---
 MySecretary is a cloud based calendar app. When you create an event, it will find a time that works for everyone that you’ve invited to the event. It was created for my capstone project in the spring of 2014.
 

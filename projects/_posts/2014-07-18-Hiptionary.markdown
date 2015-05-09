@@ -2,7 +2,7 @@
 layout: default
 modal-id: 6
 date: 2014-05-18
-img: https://cloud.githubusercontent.com/assets/5856011/7004141/910095d2-dc34-11e4-9b8c-2412b3997246.png
+img: https://cloud.githubusercontent.com/assets/5856011/7546505/59fb0d56-f5ac-11e4-9d18-96938efec13b.png
 alt: image-alt
 
 project-date: July 2014

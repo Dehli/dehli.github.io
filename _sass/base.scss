@@ -6,10 +6,10 @@ body {
 
 h1, h2 {
     font-size: 3em;
+    text-transform: uppercase;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    text-transform: uppercase;
     font-family: $base-font-family;
     font-weight: 700;
 }
@@ -38,7 +38,7 @@ a {
 }
 
 
-i.fa-code {
+i.fa-code, i.fa-envelope-o {
     margin: 25px auto 30px;
     font-size: 2em;
 }
@@ -113,9 +113,16 @@ section {
     }
 }
 
+/* Portfolio Section */
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    text-align: center;
+}
+
+#portfolio img, #portfolio .caption {
+    border-radius: $portfolio-border-radius;
 }
 
 #portfolio .portfolio-item .portfolio-link {

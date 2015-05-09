@@ -7,18 +7,16 @@ description: "Christian Paul Dehli's awesome portfolio website."
 social:
   - title: linkedin
     url: http://linkedin.com/in/dehli
-  - title: google-plus
-    url: http://google.com/+ChristianDehli
-  - title: github
-    url: http://github.com/dehli
   - title: stack-overflow
     url: http://stackoverflow.com/users/2411075/dehli
+  - title: github
+    url: http://github.com/dehli
   - title: bitbucket
     url: http://bitbucket.org/dehli
+  - title: google-plus
+    url: http://google.com/+ChristianDehli
   - title: twitter
     url: //twitter.com/cpdehli
-  - title: facebook
-    url: //facebook.com/sippyy
 
 # Build settings
 markdown: kramdown

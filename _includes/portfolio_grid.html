@@ -11,18 +11,17 @@
         <!-- Projects -->
         <div class="row" id="portfolioRow">
             {% for post in site.categories.projects %}
-                <div class="col-sm-4 portfolio-item" data-terms="{{ post.title }}{{ post.tags }}">
+                
+                <div class="col-xs-6 col-sm-3 col-md-3 portfolio-item" data-terms="{{ post.title }}{{ post.tags }}">
                     <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <i class="fa fa-hand-o-up fa-3x"></i>
                             </div>
                         </div>
                         <img src="{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        <div>
-                            <h4>{{ post.title }}</h4>
-                        </div>
                     </a>
+                    <h4>{{ post.title }}</h4>
                 </div>
             {% endfor %}
         </div>
