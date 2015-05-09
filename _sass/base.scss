@@ -16,7 +16,6 @@ h1,h2,h3,h4,h5,h6 {
 
 @media(min-width:$min-width) {
     body {
-        /* Accounts for the nav bar */
         padding-top: 110px;
     }
     
@@ -67,6 +66,8 @@ header .container-fluid {
 header img {
     display: block;
     margin: 0 auto 20px;
+    max-width: 250px;
+    border: 10px solid $secondary-color;
 }
 
 @media(min-width:$min-width) {
@@ -104,20 +105,11 @@ header img {
 
 
 section {
-    padding: 100px 0;
+    padding: 75px 0;
 }
 
-@media(max-width:$max-width) {
-    section {
-        padding: 75px 0;
-    }
-}
-
-/* Portfolio Section */
 
 #portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
     text-align: center;
 }
 
@@ -129,7 +121,6 @@ section {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -153,57 +144,28 @@ section {
     width: 100%;
     height: 20px;
     margin-top: -12px;
-    text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: $secondary-color;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-    margin: 0;
-}
-
-@media(min-width:$min-width) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
-
 .floating-label-form-group {
-    position: relative;
     margin-bottom: 0;
-    padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid $light-grey-color;
 }
 
 .floating-label-form-group input,
 .floating-label-form-group textarea {
-    z-index: 1;
     position: relative;
-    padding-right: 0;
-    padding-left: 0;
-    border: 0;
-    border-radius: 0;
-    font-size: 1.5em;
-    background: 0 0;
     box-shadow: none!important;
     resize: none;
 }
 
 .floating-label-form-group label {
-    display: block;
-    z-index: 0;
-    position: relative;
-    top: 2em;
-    margin: 0;
     font-size: .85em;
-    line-height: 1.764705882em;
-    vertical-align: middle;
-    vertical-align: baseline;
     opacity: 0;
     -webkit-transition: top .3s ease,opacity .3s ease;
     -moz-transition: top .3s ease,opacity .3s ease;
@@ -266,8 +228,6 @@ footer {
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
-    border: 0;
-    border-radius: 0;
     text-align: center;
     background-clip: border-box;
     -webkit-box-shadow: none;
@@ -281,10 +241,6 @@ footer {
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content .item-details {
-    margin: 30px 0;
 }
 
 .portfolio-modal .close-modal {
@@ -302,21 +258,19 @@ footer {
 }
 
 .portfolio-modal .close-modal .lr {
-    z-index: 1051;
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: $secondary-color;
+    background-color: $grey-color;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
 .portfolio-modal .close-modal .lr .rl {
-    z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: $secondary-color;
+    background-color: $grey-color;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -324,9 +278,4 @@ footer {
 
 .heart {
     color: #f00;
-}
-
-.face {
-    max-width: 250px;
-    border: 10px solid $secondary-color;
 }

@@ -16,7 +16,9 @@ $spacing-unit:     30px;
 
 $primary-color:    rgb(16, 107, 163);
 $secondary-color:  white;
+
 $grey-color:       rgb(68, 68, 68);
+$light-grey-color: lighten($grey-color, 60%);
 
 $portfolio-border-radius: 25%;
 

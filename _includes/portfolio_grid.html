@@ -11,8 +11,16 @@
         <!-- Projects -->
         <div class="row" id="portfolioRow">
             {% for post in site.categories.projects %}
+                {% assign divClass = "col-xs-6 col-sm-3 col-md-2 col-lg-2 portfolio-item" %}
                 
-                <div class="col-xs-6 col-sm-3 col-md-3 portfolio-item" data-terms="{{ post.title }}{{ post.tags }}">
+                {% assign mod = forloop.index0 | modulo:4 %}
+                {% if mod == 0 %}
+                    {% capture divClass %}
+                        {{ divClass }} col-md-offset-2 col-lg-offset-2
+                    {% endcapture %}
+                {% endif %}
+                
+                <div class="{{ divClass }}" data-terms="{{ post.title }}{{ post.tags }}">
                     <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
