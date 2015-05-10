@@ -2,6 +2,7 @@
 {% for post in site.categories.projects %}
     <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
+            <!-- X in the corner -->
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
@@ -10,7 +11,7 @@
             </div>
             
             <div class="container-fluid">
-                <div class="modal-title">
+                <div class="row">
                     <h3>{{ post.title }}</h3>
                     <h6>{{ post.project-date }}</h6>
                     {% if post.website %}
