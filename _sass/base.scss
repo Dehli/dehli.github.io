@@ -204,6 +204,10 @@ footer {
     outline: thin;
 }
 
+a:focus {
+    outline: none;
+}
+
 .btn-outline, .btn-outline i {
     transition: all .3s ease-in-out;
 }
@@ -232,11 +236,6 @@ footer {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
-}
-
-.portfolio-modal .modal-content h2 {
-    margin: 0;
-    font-size: 3em;
 }
 
 .portfolio-modal .modal-content img {
@@ -277,5 +276,5 @@ footer {
 }
 
 .heart {
-    color: #f00;
+    color: red;
 }

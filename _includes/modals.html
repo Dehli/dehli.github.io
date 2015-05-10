@@ -8,27 +8,60 @@
                     </div>
                 </div>
             </div>
+            
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <i class="fa fa-code"></i>
-
-                            <p>{{ post.content }} </p>
-
-                            <ul class="list-inline item-details">
-                                {% if post.website %}
-                                    <li>
-                                        <strong><a href="{{ post.website }}">{{ post.website }}</a></strong>
-                                    </li>
+                <div class="modal-title">
+                    <h3>{{ post.title }}</h3>
+                    <h6>{{ post.project-date }}</h6>
+                    {% if post.website %}
+                        <a href="{{ post.website }}">{{ post.website }}</a>
+                    {% endif %}
+                </div>
+                
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-2">
+                            <p>{{ post.content }}</p>
+                        </div>
+                    
+                        <div class="col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-2">
+                            <div id="carousel-{{ post.modal-id }}" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    {% for i in (1..post.screenshots.size) %}
+                                        {% assign class = "" %}
+                                        {% if i == 1 %}
+                                            {% assign class = "active" %}
+                                        {% endif %}
+                                        <li data-target="#carousel-{{ post.modal-id }}" data-slide-to="0" class="{{ class }}"></li>
+                                    {% endfor %}
+                                </ol>
+                                
+                                <div class="carousel-inner" role="listbox">
+                                    {% for screen in post.screenshots %}
+                                        {% assign class = "" %}
+                                        {% if forloop.index0 == 0 %}
+                                            {% assign class = "active" %}
+                                        {% endif %}
+    
+                                        <div class="item {{ class }}">
+                                            <img src="{{ screen }}" alt="Slide" class="img-centered">
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                              
+                                {% if post.screenshots.size > 1 %}
+                                    <a class="left carousel-control" href="#carousel-{{ post.modal-id }}" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                      
+                                    <a class="right carousel-control" href="#carousel-{{ post.modal-id }}" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
                                 {% endif %}
-                                <li>
-                                    <strong>{{ post.project-date }}</strong>
-                                </li>
-                            </ul>
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -49,7 +82,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="modal-body">
-            <img src="https://cloud.githubusercontent.com/assets/5856011/7004358/34f39100-dc38-11e4-89da-c762ee8d332d.png" class="img-responsive img-cenetered" alt="resume">
+            <img src="https://cloud.githubusercontent.com/assets/5856011/7004358/34f39100-dc38-11e4-89da-c762ee8d332d.png" class="img-responsive img-centered" alt="resume">
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             <a href="DehliCP.pdf" download>
               <button type="button" class="btn btn-default"><i class="fa fa-download"></i> Download</button>

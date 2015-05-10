@@ -1,9 +1,9 @@
-<!-- Portfolio Grid Section -->
+<!-- Mobile Apps -->
 <section id="portfolio">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Portfolio</h2>
+                <h2>Mobile Apps</h2>
                 <i class="fa fa-code"></i>
             </div>
         </div>
@@ -11,12 +11,12 @@
         <!-- Projects -->
         <div class="row" id="portfolioRow">
             {% for post in site.categories.projects %}
-                {% assign divClass = "col-xs-6 col-sm-3 col-md-2 col-lg-2 portfolio-item" %}
+                {% assign divClass = "col-xs-6 col-sm-4 col-md-2 col-lg-2 portfolio-item" %}
                 
-                {% assign mod = forloop.index0 | modulo:4 %}
+                {% assign mod = forloop.index0 | modulo:5 %}
                 {% if mod == 0 %}
                     {% capture divClass %}
-                        {{ divClass }} col-md-offset-2 col-lg-offset-2
+                        {{ divClass }} col-md-offset-1 col-lg-offset-1
                     {% endcapture %}
                 {% endif %}
                 

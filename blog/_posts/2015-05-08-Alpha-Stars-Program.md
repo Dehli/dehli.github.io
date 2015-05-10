@@ -8,7 +8,7 @@ This summer I will be involved with [Alpha Stars Program](http://alphastarsprogr
 
 The program will be made up of teams each working on a business idea. Each team will be made up of both business and technical individuals. Together they'll create a product that they will demonstrate at the end of the summer.
 
-I'll be the tech mentor for the teams. [Sneeki](http://sneekiapp) gave me a lot of real world experience. Here are seven questions I wish I asked myself before release.
+I'll be the tech mentor for the teams. [Sneeki](http://sneekiapp.com) gave me a lot of real world experience. Here are seven questions I wish I asked myself before release.
 
 1. Is your product prepared for rapid growth?
 2. Can your product be used for something other than intended?
