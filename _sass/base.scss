@@ -54,7 +54,7 @@ header {
     background: $primary-color;
 }
 
-.primaryColor h1, .primaryColor h2, .primaryColor i {
+.primaryColor h1, .primaryColor h2, .primaryColor i, .primaryColor h4 {
     color: $secondary-color;
 }
 
@@ -150,6 +150,10 @@ section {
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
+}
+
+#portfolio h4 {
+    font-size: 20px;
 }
 
 .floating-label-form-group {
