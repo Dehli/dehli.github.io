@@ -201,11 +201,17 @@ footer {
 
 .btn-outline, .btn-outline:focus {
     margin-top: 15px;
-    border: solid 2px $secondary-color;
     font-size: 20px;
-    color: $secondary-color;
     background: 0 0;
     outline: thin;
+    border: solid 2px $primary-color;
+    color: $primary-color;
+}
+
+.primaryColor .btn-outline, 
+.primaryColor .btn-outline:focus {
+    border: solid 2px $secondary-color;
+    color: $secondary-color;
 }
 
 a:focus {
