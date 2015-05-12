@@ -1,5 +1,5 @@
 ---
-modal-id: 1
+modal-id: 0
 img: https://cloud.githubusercontent.com/assets/5856011/7546530/8e798e0e-f5ac-11e4-8516-d6822e90b656.png
 project-date: July 2014 - October 2014
 website: http://sneekiapp.com

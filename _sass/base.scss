@@ -287,7 +287,15 @@ a:focus {
     right: calc(50% - 43px);
 }
 
-.carousel-indicators li {
-    border-color: $grey-color;
-    background-color: $light-grey-color;
+.slickImage {
+    width: 100%;
+}
+
+.mySlick .slick-next:before, 
+.mySlick .slick-prev:before {
+    color: $grey-color;
+}
+
+.closeButton {
+    margin-top: 50px;
 }

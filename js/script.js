@@ -37,3 +37,13 @@ $(function() {
         $(this).removeClass("floating-label-form-group-with-focus");
     });
 });
+
+// Animate slides
+$(function() {
+    $('.mySlick').slick({
+        arrows: true,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 2000
+    });
+});

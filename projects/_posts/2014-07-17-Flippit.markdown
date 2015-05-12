@@ -1,5 +1,5 @@
 ---
-modal-id: 2
+modal-id: 1
 img: https://cloud.githubusercontent.com/assets/5856011/7546492/20730e30-f5ac-11e4-9428-8b55c1cea24b.png
 project-date: April 2014
 screenshots:
