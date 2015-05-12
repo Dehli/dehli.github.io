@@ -38,12 +38,14 @@ $(function() {
     });
 });
 
-// Animate slides
 $(function() {
     $('.mySlick').slick({
-        arrows: true,
         dots: true,
         autoplay: true,
         autoplaySpeed: 2000
     });
+});
+
+$('.portfolio-modal').on('shown.bs.modal', function (e) {
+    $('.mySlick').slick('setPosition');
 });
