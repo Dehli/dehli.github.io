@@ -145,7 +145,7 @@ section {
     height: 20px;
     margin-top: -12px;
     font-size: 20px;
-    color: $secondary-color;
+    color: $primary-color;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -232,10 +232,6 @@ footer {
 
 a:focus {
     outline: none;
-}
-
-.btn-outline, .btn-outline i {
-    transition: all .3s ease-in-out;
 }
 
 .btn-social {
