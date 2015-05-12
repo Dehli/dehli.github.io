@@ -261,6 +261,10 @@ a:focus {
     margin: 0;		
 }
 
+.portfolio-modal p {
+    text-align: left;
+}
+
 .heart {
     color: red;
 }
@@ -281,4 +285,9 @@ a:focus {
     position: absolute;
     bottom: 5px;
     right: calc(50% - 43px);
+}
+
+.carousel-indicators li {
+    border-color: $grey-color;
+    background-color: $light-grey-color;
 }
