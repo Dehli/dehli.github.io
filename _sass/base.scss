@@ -207,11 +207,25 @@ footer {
     border: solid 2px $primary-color;
     color: $primary-color;
 }
+.btn-outline:hover {
+    color: $secondary-color;
+    background: $primary-color;
+}
+.btn-outline:hover i {
+    color: $secondary-color;
+}
 
 .primaryColor .btn-outline, 
 .primaryColor .btn-outline:focus {
     border: solid 2px $secondary-color;
     color: $secondary-color;
+}
+.primaryColor .btn-outline:hover {
+    color: $primary-color;
+    background: $secondary-color;
+}
+.primaryColor .btn-outline:hover i {
+    color: $primary-color;
 }
 
 a:focus {
@@ -220,14 +234,6 @@ a:focus {
 
 .btn-outline, .btn-outline i {
     transition: all .3s ease-in-out;
-}
-
-.btn-outline:hover {
-    color: $primary-color;
-    background: $secondary-color;
-}
-.btn-outline:hover i {
-    color: $primary-color;
 }
 
 .btn-social {
