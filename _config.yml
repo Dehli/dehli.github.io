@@ -3,18 +3,12 @@ title: Dehli
 email: cp@dehli.io
 description: "C.P. Dehli's portfolio website."
 
-# Social networks usernames
+# Social networks
 social:
   - title: linkedin
-    url: http://linkedin.com/in/dehli
-  - title: stack-overflow
-    url: http://stackoverflow.com/users/2411075/dehli
+    url: //linkedin.com/in/dehli
   - title: github
-    url: http://github.com/dehli
-  - title: google-plus
-    url: http://google.com/+ChristianDehli
-  - title: twitter
-    url: //twitter.com/cpdehli
+    url: //github.com/dehli
 
 # Build settings
 markdown: kramdown
