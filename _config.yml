@@ -1,14 +1,7 @@
 # Site settings
 title: Dehli
 email: cp@dehli.io
-description: "C.P. Dehli's portfolio website."
-
-# Social networks
-social:
-  - title: linkedin
-    url: //linkedin.com/in/dehli
-  - title: github
-    url: //github.com/dehli
+description: "C.P. Dehli's personal website."
 
 # Build settings
 markdown: kramdown

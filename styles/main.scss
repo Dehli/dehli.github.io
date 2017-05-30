@@ -3,29 +3,8 @@
 ---
 @charset "utf-8";
 
-// Our variables
-$base-font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
-$base-font-size:   20px;
-$small-font-size:  $base-font-size * 0.8;
-
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$primary-color:    rgb(16, 107, 163); // #106BA3
-$secondary-color:  white;
-
-$grey-color:       rgb(68, 68, 68);
-$light-grey-color: lighten($grey-color, 60%);
-
-$portfolio-border-radius: 25%;
-
-// Used with media queries
-$max-width: 767px;
-$min-width: $max-width + 1;
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
+// Import partials from _sass
+@import "fonts",
+        "footer",
         "syntax-highlighting"
 ;
