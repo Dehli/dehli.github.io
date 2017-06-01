@@ -1,7 +1,6 @@
 # Site settings
-title: Dehli
-email: cp@dehli.io
-description: "C.P. Dehli's personal website."
+title: dehli.io
+description: "CP Dehli's personal website."
 
 # Build settings
 markdown: kramdown
