@@ -1,0 +1,21 @@
+.blog-content {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    .blog-post {
+
+        .post-title {
+            margin: 0;
+        }
+
+        .post-meta {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        p {
+            margin-bottom: 30px;
+        }
+    }
+}

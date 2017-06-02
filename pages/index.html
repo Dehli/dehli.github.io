@@ -3,17 +3,15 @@ layout: default
 permalink: /
 
 accounts:
-  - title: linkedin
-    url: https://linkedin.com/in/dehli
-  - title: stack-overflow
-    url: https://stackoverflow.com/users/2411075/dehli
   - title: github
     url: https://github.com/dehli
+  - title: linkedin
+    url: https://linkedin.com/in/dehli
   - title: twitter
     url: https://twitter.com/cpdehli
 ---
 
-<div class="about-section">
+<div class="index-content">
 
     <div class="welcome-card">
         <span class="welcome">HELLO!</span>
@@ -21,11 +19,13 @@ accounts:
         <span class="name">C.P. Dehli</span>
     </div>
 
-    <p>
-        I'm a software engineer in Charlottesville, VA.
-        <br>
-        I love to code, lift, and ski. Feel free to reach out!
-    </p>
+    <div class="summary">
+        <p>
+            I'm a software engineer in Charlottesville, VA.
+            <br>
+            I love to code, lift, and ski. Feel free to reach out!
+        </p>
+    </div>
 
     <ul class="social-accounts">
         {% for account in page.accounts %}

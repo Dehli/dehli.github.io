@@ -28,8 +28,11 @@ a {
 // Import constants from _sass
 @import "colors",
 
-        // Pages
-        "index",
+        // _pages
+        "pages/blog",
+        "pages/index",
+
+        // _includes
         "footer",
         "header",
         "syntax";
