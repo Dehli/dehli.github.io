@@ -29,14 +29,17 @@
             }
 
             &.name {
-                width: 100%;
+                $padding: 18px;
+
+                width: calc(100% - #{2 * $padding});
                 display: flex;
                 justify-content: center;
                 background-color: $color-secondary;
                 color: $color-primary;
-                padding: 20px;
-                font-size: 26px;
+                padding: $padding;
+                font-size: 28px;
                 margin: 10px 0 15px;
+                font-family: "Comic Sans MS", cursive, sans-serif;
             }
         }
     }
