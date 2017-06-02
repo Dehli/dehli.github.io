@@ -23,8 +23,11 @@ a {
     }
 }
 
-// Import partials from _sass
+// Import constants from _sass
 @import "colors",
+
+        // Pages
+        "index",
         "footer",
         "header",
         "syntax";

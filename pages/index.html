@@ -1,11 +1,39 @@
 ---
 layout: default
 permalink: /
+
+accounts:
+  - title: linkedin
+    url: https://linkedin.com/in/dehli
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/2411075/dehli
+  - title: github
+    url: https://github.com/dehli
+  - title: twitter
+    url: https://twitter.com/cpdehli
 ---
 
-<div>
+<div class="about-section">
+
+    <div class="welcome-card">
+        <span class="welcome">HELLO!</span>
+        <span>my name is:</span>
+        <span class="name">C.P. Dehli</span>
+    </div>
+
     <p>
-        Hi! I'm a software engineer that is passionate about coding.
+        I'm a software engineer in Charlottesville, VA.
+        <br>
+        I love to code, lift, and ski. Feel free to reach out!
     </p>
 
+    <ul class="social-accounts">
+        {% for account in page.accounts %}
+        <li>
+            <a href="{{account.url}}" target="_blank">
+                <i class="fa fa-{{account.title}}"></i>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
