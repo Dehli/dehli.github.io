@@ -2,10 +2,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 30px;
+    justify-content: center;
+    flex-grow: 1;
 
     .welcome-card {
-        background-color: $color-red;
+        background-color: $color-primary;
         border: solid 1px $color-primary;
         overflow: hidden;
         border-radius: 6px;
