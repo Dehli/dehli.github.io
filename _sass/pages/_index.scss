@@ -17,6 +17,7 @@
         align-items: center;
         width: 100%;
         max-width: 300px;
+        margin-bottom: 20px;
 
         span {
             display: flex;
@@ -37,16 +38,6 @@
                 font-size: 26px;
                 margin: 10px 0 15px;
             }
-        }
-    }
-
-    .summary {
-        p {
-            margin: 35px 0 10px;
-            max-width: 400px;
-            line-height: 1.5;
-            font-size: 18px;
-            text-align: center;
         }
     }
 
