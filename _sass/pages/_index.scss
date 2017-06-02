@@ -1,0 +1,58 @@
+.index-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+
+    .welcome-card {
+        background-color: $color-primary;
+        border: solid 1px $color-primary;
+        overflow: hidden;
+        border-radius: 6px;
+        color: $color-secondary;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 20px;
+
+        span {
+            display: flex;
+
+            &.welcome {
+                margin-top: 10px;
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            &.name {
+                $padding: 18px;
+
+                width: calc(100% - #{2 * $padding});
+                display: flex;
+                justify-content: center;
+                background-color: $color-secondary;
+                color: $color-primary;
+                padding: $padding;
+                font-size: 28px;
+                margin: 10px 0 15px;
+                font-family: "Comic Sans MS", cursive, sans-serif;
+            }
+        }
+    }
+
+    .social-accounts {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+
+        a {
+            color: $color-primary;
+            margin: 10px;
+            font-size: 20px;
+        }
+    }
+}

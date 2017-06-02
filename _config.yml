@@ -1,20 +1,6 @@
 # Site settings
-title: Dehli
-email: cp@dehli.io
-description: "C.P. Dehli's portfolio website."
-
-# Social networks usernames
-social:
-  - title: linkedin
-    url: http://linkedin.com/in/dehli
-  - title: stack-overflow
-    url: http://stackoverflow.com/users/2411075/dehli
-  - title: github
-    url: http://github.com/dehli
-  - title: google-plus
-    url: http://google.com/+ChristianDehli
-  - title: twitter
-    url: //twitter.com/cpdehli
+title: dehli.io
+description: "CP Dehli's personal website."
 
 # Build settings
 markdown: kramdown

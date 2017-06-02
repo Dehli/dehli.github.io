@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Workplace
-categories: coding
+published: false
 ---
 I'm in the air, Minneapolis bound, and trying to think of what to do. I could read but I left my Kindle in the overhead compartment (seatbelts must stay on). I've been wanting to write about my dev environment so here it goes...
 

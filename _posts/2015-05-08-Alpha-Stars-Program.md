@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Alpha Stars Program
-categories: startup
+title: Alpha Stars Program
+published: false
 ---
 
 This summer I will be involved with [Alpha Stars Program](http://alphastarsprogram.com) (I used Bootstrap and Jekyll to make the site).

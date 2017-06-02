@@ -1,0 +1,12 @@
+.root-header {
+    background-color: $color-primary;
+    color: $color-secondary;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        color: inherit;
+        padding: 10px;
+    }
+}

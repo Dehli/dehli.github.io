@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Why Programming?
-categories: programming
+published: false
 ---
 
 Oftentimes, in interviews, I'm asked why I chose to be a computer programmer. It's an important question, so I decided to answer it here!

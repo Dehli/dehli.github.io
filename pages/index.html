@@ -1,0 +1,31 @@
+---
+layout: default
+permalink: /
+
+accounts:
+  - title: github
+    url: https://github.com/dehli
+  - title: linkedin
+    url: https://linkedin.com/in/dehli
+  - title: twitter
+    url: https://twitter.com/cpdehli
+---
+
+<div class="index-content">
+
+    <div class="welcome-card">
+        <span class="welcome">HELLO!</span>
+        <span>my name is:</span>
+        <span class="name">C.P. Dehli</span>
+    </div>
+
+    <ul class="social-accounts">
+        {% for account in page.accounts %}
+        <li>
+            <a href="{{account.url}}" target="_blank">
+                <i class="fa fa-{{account.title}}"></i>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
