@@ -7,11 +7,12 @@ permalink: /blog/
 <ul class="blog-content">
     {% for post in site.posts %}
     <li class="blog-post">
-        <h3 class="post-title">
+        <h2 class="post-title">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
+        </h2>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <p>{{ post.content | strip_html | truncatewords:40 }}<p>
+        <p>{{post.preview}}</p>
+        <img src="{{post.preview-img}}" alt="preview image">
     </li>
     {% endfor %}
 </ul>
