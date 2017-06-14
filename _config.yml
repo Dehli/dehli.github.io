@@ -11,3 +11,6 @@ exclude:
 # Plugins
 gems:
   - octopress-paginate
+
+sass:
+  style: compressed
