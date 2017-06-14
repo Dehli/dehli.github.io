@@ -7,3 +7,7 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Plugins
+gems:
+  - octopress-paginate
