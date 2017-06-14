@@ -1,0 +1,13 @@
+.image-component {
+    display: flex;
+    flex-direction: column;
+
+    img {
+        box-shadow: 0 0 10px $color-text-secondary;
+    }
+
+    span {
+        color: $color-text-secondary;
+        padding: 5px;
+    }
+}
