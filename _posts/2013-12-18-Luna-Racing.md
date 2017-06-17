@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Luna Racing
+preview: Luna Racing is a video game, set in space, built for the Xbox 360.
 preview-img: https://cloud.githubusercontent.com/assets/5856011/7004214/a88bc568-dc35-11e4-94ae-6eec1820575b.png
 ---
 
