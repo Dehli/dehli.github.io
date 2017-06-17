@@ -11,7 +11,7 @@ In Luna Racing, you're in outer space with a handful of other players (both real
 
 It has lots of really cool features including:
 - Local multiplayer through split screen
-- LAN multiplayer
+- LAN multiplayer using [System Link](https://en.wikipedia.org/wiki/System_Link)
 - Online multiplayer using Xbox Live
 - [Dead reckoning](https://en.wikipedia.org/wiki/Dead_reckoning)
 - AI that learns over time how to better play the game

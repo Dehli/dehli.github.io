@@ -18,7 +18,9 @@ paginate:
             </h2>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
             <p>{{post.preview}}</p>
+            {% if post.preview-img %}
             <img src="{{post.preview-img}}" alt="preview image">
+            {% endif %}
         </li>
         {% endfor %}
     </ul>
