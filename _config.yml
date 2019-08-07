@@ -8,8 +8,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# Plugins
-gems:
+plugins:
   - octopress-paginate
 
 sass:
