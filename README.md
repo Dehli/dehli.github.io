@@ -1,7 +1,7 @@
-Dehli.io
+Deh.li
 =========================
 
-[dehli.io](https://dehli.io)
+[deh.li](https://deh.li)
 
 ```
 bundle install
