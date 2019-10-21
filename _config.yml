@@ -13,3 +13,6 @@ plugins:
 
 sass:
   style: compressed
+
+include:
+  - _redirects

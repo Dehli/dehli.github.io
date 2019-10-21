@@ -1,0 +1,6 @@
+# Redirect domain aliases to primary domain
+https://cpdehli.com/*        https://deh.li/:splat 301!
+https://dehli.co/*           https://deh.li/:splat 301!
+https://dehli.dev/*          https://deh.li/:splat 301!
+https://dehli.io/*           https://deh.li/:splat 301!
+https://dehli.netlify.com/*  https://deh.li/:splat 301!
