@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dehli
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://deh.li
+  * I am dehli (https://keybase.io/dehli) on keybase.
+  * I have a public key ASBPMcCdNjQErdtvKmMo2tSr0AK2y0kBAexkzKolA4oGAgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012077aadeb373723fbc367f33dc39d8ce6171a4b7503d59068b0a9484da88f24d190a",
+      "host": "keybase.io",
+      "kid": "01204f31c09d363404addb6f2a6328dad4abd002b6cb490101ec64ccaa25038a06020a",
+      "uid": "5c4696a60001d12e92e554b81a9c9c19",
+      "username": "dehli"
+    },
+    "merkle_root": {
+      "ctime": 1578061917,
+      "hash": "79ea8089de3dd0d511372449cc639ba252da971dedb7f5337f78a3f130fa6df27990aeba4dd3eeacbd6d8273c7f224c17d0050bfbfa3b3c88afa47ac553e37b5",
+      "hash_meta": "3e70f88b9e24b62bbfec89e7d25f5fb50b754bbbc2226e4cecb09c239d8f4081",
+      "seqno": 14067947
+    },
+    "service": {
+      "entropy": "eiOcnTxXaaX0/DUx2HeTExT1",
+      "hostname": "deh.li",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.1.1"
+  },
+  "ctime": 1578061929,
+  "expire_in": 504576000,
+  "prev": "c393030dc591220e0f4fe808b8a522efebba25638905d89d75ae4c6446e63053",
+  "seqno": 26,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgTzHAnTY0BK3bbypjKNrUq9ACtstJAQHsZMyqJQOKBgIKp3BheWxvYWTESpcCGsQgw5MDDcWRIg4PT+gIuKUi7+u6JWOJBdidda5MZEbmMFPEIA87hFXqWPZK4Bzy5dsRHYeLXh6Ep+YQaOHb6gQMQlLNAgHCo3NpZ8RAFfwhHtjoiELj6r78u3NVb/UuO0iGeubr7VWRjAdPvwqjmLhWTIBoco3dh34wNCBXI8BfKE1/c5tIqacnBG3lBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIx6ueH8pJPTmC42NiD/+uKo41A1JRwxggTuSPA6Q/ueo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dehli
+
+==================================================================

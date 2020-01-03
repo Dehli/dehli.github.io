@@ -16,3 +16,4 @@ sass:
 
 include:
   - _redirects
+  - keybase.txt
