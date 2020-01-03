@@ -11,7 +11,7 @@ preview-img: https://cloud.githubusercontent.com/assets/5856011/26758903/5be60e9
 Transcript show: 'Hello, world!'.
 ```
 
-In my Object Oriented class, our assignment was to create a game using Smalltalk. We used the [Squeak](http://squeak.org/) environment along with [Morphic](http://wiki.squeak.org/squeak/morphic). The environment was a little difficult to work
+In my Object Oriented class, our assignment was to create a game using Smalltalk. We used the [Squeak](https://squeak.org/) environment along with [Morphic](https://wiki.squeak.org/squeak/morphic). The environment was a little difficult to work
 with, and the language seemed out of date, but overall it was a good learning experience.
 
 ![squeak](https://cloud.githubusercontent.com/assets/5856011/26758989/80b117ae-48bd-11e7-93de-309a431c9adb.png)

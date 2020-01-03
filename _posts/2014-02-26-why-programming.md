@@ -6,12 +6,12 @@ preview-img: https://user-images.githubusercontent.com/5856011/27111614-5bf5dc14
 
 Oftentimes, in interviews, I'm asked why I chose to be a computer programmer. It's an important question, so I decided to answer it here!
 
-In 6th grade (2003), on career day, a robotics engineer presented a Lego robot to give us a glimpse into what he did. The robot captivated me; I had to make one. After research, I found a competition called [First Lego League](http://www.firstlegoleague.org/). In this competition, you'd create and program a Lego robot that would navigate an obstacle course. I'd always been a fan of computers and Legos so F.L.L. was perfect for me. That summer I went to workshops and learned all I could so I could enter a team the following year.
+In 6th grade (2003), on career day, a robotics engineer presented a Lego robot to give us a glimpse into what he did. The robot captivated me; I had to make one. After research, I found a competition called [First Lego League](https://www.firstlegoleague.org/). In this competition, you'd create and program a Lego robot that would navigate an obstacle course. I'd always been a fan of computers and Legos so F.L.L. was perfect for me. That summer I went to workshops and learned all I could so I could enter a team the following year.
 
 In 7th grade (2004), I started a team. I learned my first programming language: RoboLab. We won the rookie team award and I was very proud to take the Lego trophy home.
 
 {% include image.html alt="Robolab user interface"
-    src="http://web.ncf.ca/aa333/bumper.gif" %}
+    src="https://user-images.githubusercontent.com/5856011/27111736-2ebeff7c-5080-11e7-8873-b764d5854f56.gif" %}
 
 In 8th grade (2005), I switched to using Mindstorms NXT (another visual programming language). My team won the robotic design award!
 

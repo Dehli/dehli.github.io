@@ -4,7 +4,7 @@ title: Alpha Stars Program
 preview: This was a summer program where I mentored students who were creating a digital product or service.
 ---
 
-This past summer I was a technical mentor for the [Alpha Stars Program](http://alphastarsprogram.com). I helped answer technical questions and guide the students in the right direction. I also introduced them to agile practices to help them stay on track.
+This past summer I was a technical mentor for the Alpha Stars Program. I helped answer technical questions and guide the students in the right direction. I also introduced them to agile practices to help them stay on track.
 
 The program was made up of a handful of teams each working on a business idea. Each team was made up of both business and technical individuals. Together they createed a product that they demoed at the end of the summer to a panel of individuals we selected.
 
