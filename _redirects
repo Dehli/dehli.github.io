@@ -1,3 +1,6 @@
+# Redirect paths to external urls
+https://deh.li/wedding       https://www.weddingwire.us/website/dehli 302!
+
 # Redirect domain aliases to primary domain
 https://cpdehli.com/*        https://deh.li/:splat 301!
 https://dehli.co/*           https://deh.li/:splat 301!
