@@ -1,5 +1,5 @@
 # Redirect paths to external urls
-https://deh.li/wedding       https://www.weddingwire.us/website/dehli 302!
+https://deh.li/wedding       https://www.weddingwire.us/website/gabriela-dehli-and-christian-p-dehli 302!
 
 # Redirect domain aliases to primary domain
 https://cpdehli.com/*        https://deh.li/:splat 301!
