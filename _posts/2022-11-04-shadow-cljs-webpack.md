@@ -29,20 +29,9 @@ bundling of JS dependencies to Webpack.
 {% highlight clojure %}
 ;; shadow-cljs.edn
 {:builds
- {:web-advanced
-  {:closure-defines {goog.DEBUG false}
-   :compiler-options {:infer-externs :auto
-                      :optimizations :advanced}
-   :output-dir ".shadow-cljs"
-   :target :esm
-   :js-options {:js-provider :import}
-   :modules {:main {:init-fn com.vistaly.web.core/init!}}}
-
-  :web-dev
-  {:closure-defines {goog.DEBUG true}
-   :compiler-options {:infer-externs :auto}
-   :devtools {:watch-dir "resources/public"}
-   :output-dir ".shadow-cljs"
+ {:web
+  {:devtools {:watch-dir "resources/public"}
+   :output-dir "build"
    :target :esm
    :js-options {:js-provider :import}
    :modules {:main {:init-fn com.vistaly.web.core/init!}}}}}
@@ -73,14 +62,14 @@ module.exports = {
     static: { directory },
     port: 9000,
   },
-  entry: "./.shadow-cljs/main.js",
+  entry: "./build/main.js",
   mode: DEV_MODE ? "development" : "production",
   module: DEV_MODE && {
     rules: [
       {
         test: /\.js$/,
         enforce: "pre",
-        include: [path.resolve(__dirname, ".shadow-cljs")],
+        include: [path.resolve(__dirname, "build")],
         use: ["source-map-loader"],
       },
     ],
