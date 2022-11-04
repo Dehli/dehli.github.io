@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Shadow CLJS + Webpack
-preview: "foo"
+preview: "How to use shadow-cljs with Webpack."
 ---
 
 In this post, I'll share how I've gotten [`shadow-cljs`][shadow]
