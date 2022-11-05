@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
 require 'json'
-require 'open-uri'
+require 'net/http'
 
 versions = JSON.parse(
-  URI.open('https://pages.github.com/versions.json').read
+  Net::HTTP.get(URI('https://pages.github.com/versions.json'))
 )
 
 gem 'github-pages', versions['github-pages']
