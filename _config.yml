@@ -1,6 +1,7 @@
 # Site settings
 title: deh.li
 description: "CP Dehli's personal website."
+url: "https://deh.li"
 
 # Build settings
 markdown: kramdown
@@ -9,6 +10,7 @@ exclude:
   - Gemfile.lock
 
 plugins:
+  - jekyll-feed
   - octopress-paginate
 
 sass:
