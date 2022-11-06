@@ -17,3 +17,7 @@ sass:
 include:
   - _redirects
   - keybase.txt
+
+# Dev settings
+incremental: true
+livereload: true

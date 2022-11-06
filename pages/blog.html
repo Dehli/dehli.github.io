@@ -17,7 +17,11 @@ paginate:
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            {% if post.preview %}
             <p>{{post.preview}}</p>
+            {% endif %}
+
             {% if post.preview-img %}
             <img src="{{post.preview-img}}" alt="preview image">
             {% endif %}
