@@ -4,17 +4,17 @@ title: Shadow CLJS + Webpack
 preview: "How to use shadow-cljs with Webpack."
 ---
 
-In this post, I'll share how I've gotten [`shadow-cljs`][shadow]
-working alongside [Webpack][webpack] using the [`:esm`][shadow-esm]
-target. This allows for Webpack's tree-shaking of JavaScript dependencies
-while still having all the benefits of `shadow-cljs`.
+In this post, I'll share how I've gotten [`shadow-cljs`][shadow]{:target="_blank"}
+working alongside [Webpack][webpack]{:target="_blank"} using the
+[`:esm`][shadow-esm]{:target="_blank"} target. This allows for Webpack's tree-shaking
+of JavaScript dependencies while still having all the benefits of `shadow-cljs`.
 
-For [Vistaly.com][vistaly] (a product-strategy startup I'm co-founding),
-we were using large JavaScript libraries (such as [AWS Amplify][amplify])
+For [Vistaly.com][vistaly]{:target="_blank"} (a product-strategy startup I'm co-founding),
+we were using large JavaScript libraries (such as [AWS Amplify][amplify]{:target="_blank"})
 and because of this, we had a very large bundle size.
 
 Before the switch, our bundle size was 11MB uncompressed 🐢. CloudFront
-only compresses files under 10MB ([source][cloudfront]), which meant
+only compresses files under 10MB ([source][cloudfront]{:target="_blank"}), which meant
 our users had to wait to download the full 11MB before their app would load.
 
 By switching to ESM + Webpack, our bundle size decreased to 3.7MB uncompressed /
@@ -81,13 +81,15 @@ module.exports = {
 };
 {% endhighlight %}
 
-Lastly, I had to update our [babashka][bb] scripts to reflect the changes.
+Lastly, I had to update our [babashka][bb]{:target="_blank"} scripts to
+reflect the changes.
 
 The `dev` command changed to utilize `npx webpack serve` along with `DEV_MODE=true`,
 while the `release` command changed to utilize `npx webpack`.
 
-Hope that helped! if anything wasn't clear or you're interested in [Vistaly][vistaly],
-you can find me on the Clojurians Slack channel (`@dehli`). Talk soon! 👋
+Hope that helped! if anything wasn't clear or you're interested in
+[Vistaly][vistaly]{:target="_blank"}, you can find me on the Clojurians
+Slack channel (`@dehli`). Talk soon! 👋
 
 [amplify]:    https://docs.amplify.aws/guides/q/platform/js/
 [bb]:         https://github.com/babashka/babashka

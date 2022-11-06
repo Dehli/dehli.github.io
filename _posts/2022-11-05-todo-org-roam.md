@@ -4,11 +4,11 @@ title: "Org-roam TODO and Version Control"
 preview: "How I use org-roam."
 ---
 
-At my last job (ArcheMedX), I was exposed to [Roam Research][roam-research]
+At my last job (ArcheMedX), I was exposed to [Roam Research][roam-research]{:target="_blank"}
 (thanks Justin 🙂). For those who don't know what Roam Research is, it's
 a note-taking tool that allows you to write notes that bidirectionally link
 to each other. After leaving ArcheMedX, I started to use a similar Emacs library:
-[`org-roam`][org-roam].
+[`org-roam`][org-roam]{:target="_blank"}.
 
 I extensively use `org-roam` to track my TODO items by tagging each task
 with the TODO node. I then use the following function to quickly view my
@@ -44,7 +44,8 @@ changed over time. It also allows me to completely change my
 notes without worrying about losing them.
 
 I wrote an Emacs function that runs at a regular interval using
-[Midnight][midnight] to call `git add`, `git commit`, and `git push`.
+[Midnight][midnight]{:target="_blank"} to call `git add`,
+`git commit`, and `git push`.
 
 {% highlight elisp %}
 (defun org-roam-git (cmd)
@@ -68,7 +69,8 @@ I wrote an Emacs function that runs at a regular interval using
 (add-hook 'midnight-hook 'org-roam-git-add-commit-push)
 {% endhighlight %}
 
-You can check out my full Emacs config on [Github][emacs].
+You can check out my full Emacs config on
+[Github][emacs]{:target="_blank"}.
 
 [emacs]:         https://github.com/dehli/.emacs.d/
 [midnight]:      https://www.emacswiki.org/emacs/MidnightMode
