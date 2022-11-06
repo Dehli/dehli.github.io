@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Org-roam TODO and Version Control"
+preview: "How I use org-roam."
 ---
 
 At my last job (ArcheMedX), I was exposed to [Roam Research][roam-research]
