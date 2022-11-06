@@ -1,7 +1,8 @@
 # Site settings
 title: deh.li
-description: "CP Dehli's personal website."
+description: "C.P. Dehli's personal website."
 url: "https://deh.li"
+author: "C.P. Dehli"
 
 # Build settings
 markdown: kramdown
