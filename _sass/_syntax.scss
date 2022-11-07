@@ -1,4 +1,8 @@
 .highlight  {
+    margin: 0;
+    max-width: calc(100vw - 40px);
+    overflow-x: auto;
+
     background: #ffffff;
 
     .c { color: #999988; font-style: italic } /* Comment */
